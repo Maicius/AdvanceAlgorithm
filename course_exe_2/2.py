@@ -2,7 +2,6 @@ import sys
 from functools import cmp_to_key
 
 class ConvexHull(object):
-
     def __init__(self):
         self.p0 = (0, 0)
         self.stack_point = []
