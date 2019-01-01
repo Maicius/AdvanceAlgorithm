@@ -23,7 +23,6 @@ int count9Divisors(int b) {
             count1++;
         }
     }
-    //cout << "count 1:" << count1 <<endl;
     vector<int> list;
     for (int i = 2; i <= sqrt(b); i++) {
         if (is_prime(i)) {
